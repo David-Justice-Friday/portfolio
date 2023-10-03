@@ -1,24 +1,43 @@
+
 .h1{
     font-size: 50px;
     font-style:bold;
     color: blue;
+    margin-bottom: 100px;
+    display:  100px;
+}
+.ser{
+   text-align: center;
 }
 .button{
     padding: auto;
     border-radius: 15px;
     size: 20px;
     color: blue;
-    
-    align-items: center;
+    align-items: center; 
+}
+*.body{
+    background-image: url(./assets/icons/download99.jpg);
+    background-repeat: no-repeat;  
+    background-size: contain; 
     
 }
+
+.lable{
+    margin-left: 550px;
+    color: darkorange;
+    border-style: ridge; width: 190px;height: 150px;padding: 10px;    
+}
+
 .navigation{
-    margin-bottom:0px;
+    margin: bottom 56px;
     padding : 0px ;
     display: flex;
     gap: 20px;
     text-justify: padding;
-    margin-left: 450px;
+    margin-left: 650px;
+    box-sizing: border-box;
+    padding-bottom: 200px;
 }
 
 .class{
@@ -29,6 +48,7 @@
     width: 15%;
     padding: 10px;
     justify-content: center;
+    margin: left 40px;
 }
 
 nav{
@@ -37,6 +57,11 @@ nav{
 }
 .class{
     margin-top: 100px;
-    margin-left: 490px
+    margin-left: 550px;
+    margin-top: 15%;
 }
-
+.read{   
+    text-align: center; 
+        width: 20px;
+        border: 5px  whitesmoke;
+      }    

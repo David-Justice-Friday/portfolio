@@ -1,4 +1,8 @@
 
+body{
+   /* background-color: linear-gradient(90deg, #ee17b1 -42.7%, #5618FF 117.16%);  */
+  background-color:#ee17b1,#5618FF;
+}
 .problem{
     color:blue;
   padding-left: 15px;
