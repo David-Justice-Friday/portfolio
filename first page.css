@@ -19,8 +19,7 @@
 *.body{
     background-image: url(./assets/icons/download99.jpg);
     background-repeat: no-repeat;  
-    background-size: contain; 
-    
+    background-size: contain;  
 }
 
 .lable{

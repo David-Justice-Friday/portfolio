@@ -1,0 +1,87 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eket Waste Collection</title>
+    <link rel="stylesheet" type="text/css" href="waste.css">
+</head>
+<body>
+    <header>
+        <h1>Eket Waste Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#schedule">Schedule a Pickup</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Eket Waste Collection</h2>
+        <p>Responsible waste disposal for a cleaner environment.</p>
+        <a href="#schedule" class="cta-button">Schedule a Pickup</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer waste collection services for:</p>
+        <ul>
+            <li>Household Waste</li>
+            <li>Electronic Waste</li>
+            <li>Hazardous Waste</li>
+        </ul>
+        <p>Contact us for pricing and subscription options.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedule a Pickup</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="waste-type">Waste Type:</label>
+            <select id="waste-type" name="waste-type">
+                <option value="household">Household Waste</option>
+                <option value="electronic">Electronic Waste</option>
+                <option value="hazardous">Hazardous Waste</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="pickup-date">Preferred Pickup Date and Time:</label>
+            <input type="datetime-local" id="pickup-date" name="pickup-date" required>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+
+            <button type="submit" class="cta-button">Submit Request</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our commitment to environmental sustainability and responsible waste management.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please reach out to us:</p>
+        <p>Email: info@eketwastecollection.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Eket Waste Collection</p>
+    </footer>
+</body>
+</html>

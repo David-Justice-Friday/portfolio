@@ -1,0 +1,73 @@
+body, h1, h2, h3, ul, li, p {
+    margin: 0PX;
+    padding: 0;
+    color: black;
+    
+
+}
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color:black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(./need.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 200px ;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    color:aqua;
+    margin:10px;
+}
+
+/* Style the content section */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style the footer section */
+footer {
+    background-color:red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100vh;
+}
